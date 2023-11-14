@@ -1,0 +1,209 @@
+/* Add CSS here */
+body {
+    background-color: #f5f5f5;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    height: 500px;
+    max-width: 440px;
+    box-shadow: 0 4px 8px rgb(231, 227, 227);
+}
+
+.holder {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.res {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+}
+
+.res h1 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.details {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.closet-1 h1 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #878181;
+}
+
+.closet-1 {
+    text-align: center;
+}
+
+.closet-2 {
+    text-align: center;
+    border-width: 7px;
+    height: 120px;
+    border-color: #05b7f7;
+    border-radius: 5em;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.closet-1 p {
+    font-size: 12px;
+    color: #878181;
+    font-weight: 700;
+}
+
+.closet-2 h1 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #878181;
+}
+
+h2 {
+    margin-left: 20px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #827d7d;
+}
+
+.closet-2 p {
+    font-size: 12px;
+    color: #878181;
+    font-weight: 700;
+}
+
+.awards {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    line-height: 40px;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+@media screen and (max-width:600px) {
+    body {
+        background-color: #f5f5f5;
+        font-family: sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .container {
+        background-color: white;
+        height: 500px;
+        width: 95%;
+        box-shadow: 0 4px 8px rgb(231, 227, 227);
+    }
+
+    .holder {
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .res {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        padding: 20px;
+    }
+
+    .res h1 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .details {
+        height: 200px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .closet-1 h1 {
+        font-size: 20px;
+        font-weight: 800;
+        color: #878181;
+    }
+
+    .closet-1 {
+        text-align: center;
+    }
+
+    .closet-2 {
+        text-align: center;
+        border-width: 7px;
+        height: 100px;
+        border-color: #05b7f7;
+        border-radius: 5em;
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .closet-1 p {
+        font-size: 12px;
+        color: #878181;
+        font-weight: 700;
+    }
+
+    .closet-2 h1 {
+        font-size: 20px;
+        font-weight: 800;
+        color: #878181;
+    }
+
+    h2 {
+        margin-left: 20px;
+        font-size: 17px;
+        font-weight: 700;
+        color: #827d7d;
+    }
+
+    .closet-2 p {
+        font-size: 12px;
+        color: #878181;
+        font-weight: 700;
+    }
+
+    .awards {
+        height: 200px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        line-height: 40px;
+        justify-content: space-between;
+        padding: 20px;
+    }
+}
